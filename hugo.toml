@@ -2,7 +2,7 @@
 
 baseURL = 'https://example.com/'
 title = 'Hugo Book'
-theme = 'hugo-book'
+theme = ['hugo-book', 'hugo-cite']
 
 # Book configuration
 disablePathToLower = true
@@ -44,8 +44,8 @@ enableGitInfo = true
   weight = 10
 
 [[menu.after]]
-  name = "Hugo Themes"
-  url = "https://themes.gohugo.io/hugo-book/"
+  name = "Book"
+  url = "https://spice.github.io"
   weight = 20
 
 [params]
