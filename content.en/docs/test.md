@@ -1,5 +1,5 @@
 ---
-title: Testing
+title: Test
 bibFile: static/bib.json
 plotly: true
 ---
@@ -18,7 +18,7 @@ Lorem Ipsum.
 
 {{< load-plotly >}}
 
-{{< plotly json="/plotly/test.json" height="900" >}}
+{{< plotly json="/book/plotly/test.json" height="900" >}}
 
 ## Gallery
 
